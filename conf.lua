@@ -1,5 +1,5 @@
 function love.conf(t)
-    t.version = "0.10.2"
+    t.version = "11.1"
     t.console = true
     t.window.title = "Console Test"
     t.window.width = 1600
