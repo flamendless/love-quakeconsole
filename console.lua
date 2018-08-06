@@ -200,7 +200,7 @@ function console.keypressed(key)
         console.takenBy.keypressed(key)
         return
     end
-
+		if not console.active then return end
     if alt and key == "up" then
         console.scroll = math.max(1, console.scroll - 1)
     elseif alt and key == "down" then
