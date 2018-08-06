@@ -102,6 +102,7 @@ function console.draw()
             end
         end
     end
+		love.graphics.setScissor()
 end
 
 function console.takeOver(handler)
